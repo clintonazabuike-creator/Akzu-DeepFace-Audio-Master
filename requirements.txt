@@ -1,0 +1,30 @@
+# Strict Numpy constraint to prevent _ARRAY_API and ABI crashes on NumPy 2.x
+numpy>=1.23.5,<2.0.0
+
+# Deep Learning Core & Acceleration (PyTorch CUDA wheels handled in setup.bat)
+onnx>=1.14.0
+onnxruntime-gpu>=1.16.3
+torchvision
+torchaudio
+
+# Computer Vision & Image Processing
+opencv-python>=4.8.0
+insightface>=0.7.3
+facexlib>=0.3.0
+pillow>=9.5.0
+scikit-image>=0.21.0
+scipy>=1.10.0
+
+# Audio Processing & RVC Core
+sounddevice>=0.4.6
+soundfile>=0.12.1
+librosa>=0.10.1
+fairseq>=0.12.2
+pyworld>=0.3.4
+torchcrepe>=0.0.22
+
+# System & Utilities
+psutil>=5.9.0
+tqdm>=4.65.0
+pyyaml>=6.0
+rich>=13.0.0
