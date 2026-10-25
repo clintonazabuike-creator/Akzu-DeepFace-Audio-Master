@@ -1,0 +1,85 @@
+# ==========================================
+# PYTHON & VIRTUAL ENVIRONMENTS
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# LARGE MODEL WEIGHTS & CHECKPOINTS (CRITICAL)
+# ==========================================
+# PyTorch checkpoints
+*.pth
+*.pt
+*.ckpt
+
+# ONNX Runtime model binaries
+*.onnx
+
+# RVC / InsightFace / HubERT model directories & weights
+video_pipeline/models/*.onnx
+video_pipeline/models/*.pth
+video_pipeline/models/weights/
+voice_pipeline/trained_voices/*.pth
+voice_pipeline/trained_voices/*.index
+voice_pipeline/trained_voices/weights/
+*.weights
+*.bin
+checkpoints/
+models/
+
+# ==========================================
+# AUDIO, VIDEO & DATASETS OUTPUTS
+# ==========================================
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.wav
+*.mp3
+*.flac
+dataset/
+output/
+temp_audio/
+runs/
+
+# ==========================================
+# IDEs, LOGS & OS METADATA
+# ==========================================
+.idea/
+.vscode/
+*.swp
+*.swo
+.vs/
+*.log
+logs/
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
