@@ -1,0 +1,34 @@
+{
+  "suite_metadata": {
+    "project": "deepfake-voice-video-suite",
+    "author": "Akzu-DeepFace-Audio-Master",
+    "version": "2.1.5-RTX"
+  },
+  "video_capture": {
+    "base_resolution": "1920x1080",
+    "output_resolution": "1920x1080",
+    "fps": 30,
+    "color_format": "NV12",
+    "color_space": "709",
+    "color_range": "Full"
+  },
+  "obs_virtual_camera": {
+    "enabled": true,
+    "launch_parameter": "--startvirtualcam",
+    "output_target": "OBS-Camera",
+    "source_capture_type": "Window Capture",
+    "target_window_title": "Akzu-DeepFace-Audio-Master [CUDA Stream]"
+  },
+  "audio_routing": {
+    "input_source": "Microphone (Realtek High Definition Audio)",
+    "monitoring_device": "CABLE Input (VB-Audio Virtual Cable)",
+    "latency_target_ms": 45,
+    "sample_rate": 16000,
+    "buffer_block_size": 1024
+  },
+  "communication_app_bindings": [
+    "WhatsApp Desktop",
+    "Zoom Meetings",
+    "Telegram Desktop"
+  ]
+}
